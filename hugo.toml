@@ -1,0 +1,73 @@
+baseURL = 'https://www.hsrgc.gr/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+title = 'Hellenic Society of Relativity, Gravitation and Cosmology'
+theme = 'ananke'
+
+timeZone = 'Europe/Athens'
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[languages]
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight       = 1
+    title        = 'Hellenic Society of Relativity, Gravitation and Cosmology'
+    [languages.en.params]
+      description = 'Hellenic Society of Relativity, Gravitation and Cosmology'
+
+  [languages.el]
+    languageCode = 'el'
+    languageName = 'Ελληνικά'
+    weight       = 2
+    title        = 'Ελληνική Εταιρεία Σχετικότητας, Βαρύτητας και Κοσμολογίας'
+    [languages.el.params]
+      description = 'Ελληνική Εταιρεία Σχετικότητας, Βαρύτητας και Κοσμολογίας'
+
+
+###############################################################################
+# Main menu, one section per language
+###############################################################################
+[[languages.en.menu.main]]
+  name    = 'About'
+  pageRef = '/about'
+  weight  = 10
+[[languages.en.menu.main]]
+  name    = 'Members'
+  pageRef = '/members'
+  weight  = 20
+[[languages.en.menu.main]]
+  name    = 'News'
+  pageRef = '/news'
+  weight  = 30
+[[languages.en.menu.main]]
+  name    = 'Events'
+  pageRef = '/events'
+  weight  = 40
+[[languages.en.menu.main]]
+  name    = 'Contact'
+  pageRef = '/contact'
+  weight  = 50
+
+[[languages.el.menu.main]]
+  name    = 'Σχετικά'
+  pageRef = '/about'
+  weight  = 10
+# [[languages.el.menu.main]]
+#   name    = 'Μέλη'
+#   pageRef = '/members'
+#   weight  = 20
+[[languages.el.menu.main]]
+  name    = 'Νέα'
+  pageRef = '/news'
+  weight  = 30
+[[languages.el.menu.main]]
+  name    = 'Εκδηλώσεις'
+  pageRef = '/events'
+  weight  = 40
+[[languages.el.menu.main]]
+  name    = 'Επικοινωνία'
+  pageRef = '/contact'
+  weight  = 50
