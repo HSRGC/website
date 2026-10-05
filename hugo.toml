@@ -2,25 +2,55 @@ baseURL = 'https://www.hsrgc.gr/'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 title = 'Hellenic Society of Relativity, Gravitation and Cosmology'
-theme = 'ananke'
+theme = 'hsrgc'
 
+MetaDataFormat = "yaml"
+site_logo = "/images/hsrgc_logo.svg"
 timeZone = 'Europe/Athens'
+date_format = "02 Jan 2026"
+
+[params]
+cover_dimming_class = "bg-black-50"
+favicon = "images/favicon.ico"
+# custom_css = [""]
+# choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+# background_color_class = "bg-near-black"
+background_color_class = "bg-dark-green"
+header_section_class = "tc-l pv4 pv6-l ph3 ph4-ns"
+featured_image = "images/headerphoto_cover.jpg"
+featured_image_class = "cover bg-center"
+recent_posts_number = 10
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+member-tag = "member-tags"
+
+[Social]
+    twitter = "https://twitter.com/hsrgc"
+    facebook = "@hsrgc"
+    instagram = ""
+    youtube = "@hsrgc1231231"
+    linkedin = ""
+    mastodon = ""
+    slack = ""
+    rss = ""
 
 [outputs]
   home = ['HTML', 'RSS']
 
 [languages]
   [languages.en]
-    languageCode = 'en'
-    languageName = 'English'
+    locale = 'en'
+    label = 'English'
     weight       = 1
     title        = 'Hellenic Society of Relativity, Gravitation and Cosmology'
     [languages.en.params]
       description = 'Hellenic Society of Relativity, Gravitation and Cosmology'
 
   [languages.el]
-    languageCode = 'el'
-    languageName = 'Ελληνικά'
+    locale = 'el'
+    label = 'Ελληνικά'
     weight       = 2
     title        = 'Ελληνική Εταιρεία Σχετικότητας, Βαρύτητας και Κοσμολογίας'
     [languages.el.params]
@@ -31,34 +61,46 @@ timeZone = 'Europe/Athens'
 # Main menu, one section per language
 ###############################################################################
 [[languages.en.menu.main]]
-  name    = 'About'
-  pageRef = '/about'
+  name    = 'Home'
+  pageRef = '/'
   weight  = 10
 [[languages.en.menu.main]]
-  name    = 'Members'
-  pageRef = '/members'
+  name    = 'History'
+  pageRef = '/about'
   weight  = 20
 [[languages.en.menu.main]]
   name    = 'News'
   pageRef = '/news'
   weight  = 30
 [[languages.en.menu.main]]
-  name    = 'Events'
+  name    = 'Organisation'
   pageRef = '/events'
   weight  = 40
+# [[languages.en.menu.main]]
+#   name    = 'Activities'
+#   pageRef = '/activities'
+#   weight  = 50
+[[languages.en.menu.main]]
+  name    = 'Membership & Dues'
+  pageRef = '/membership'
+  weight  = 60
 [[languages.en.menu.main]]
   name    = 'Contact'
   pageRef = '/contact'
-  weight  = 50
+  weight  = 70
 
 [[languages.el.menu.main]]
   name    = 'Σχετικά'
   pageRef = '/about'
   weight  = 10
-# [[languages.el.menu.main]]
-#   name    = 'Μέλη'
-#   pageRef = '/members'
-#   weight  = 20
+[[languages.el.menu.main]]
+  name    = 'Σχετικά'
+  pageRef = '/about'
+  weight  = 10
+[[languages.el.menu.main]]
+  name    = 'Μέλη'
+  pageRef = '/members'
+  weight  = 20
 [[languages.el.menu.main]]
   name    = 'Νέα'
   pageRef = '/news'
