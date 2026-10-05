@@ -36,6 +36,7 @@ Benefits for the new setup:
 - [ ] create archetypes
 - [ ] setup hosting and deployment with github pages
 - [ ] locate source of payments.hsrgc.gr and migrate
+- [ ] create members database and feed that into members
 
 
 | old URL    | new Hugo path | redirect needed | migration status |

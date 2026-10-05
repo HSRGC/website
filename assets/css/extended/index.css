@@ -1,0 +1,336 @@
+* { padding: 0; margin: 0; }
+/* set width and height to auto */
+body {
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+    font: normal 90%/1.5em 'Trebuchet MS', Tahoma, sans-serif;
+    color: #555;
+    background: #FFF url('/images/bg.jpg') repeat-x;
+    text-align: center;		
+}
+
+div {
+    width: auto;
+    height: auto;
+} 
+<!-- -->
+/* links */
+a { background: inherit; color: #72A545; text-decoration: none; }
+a:hover { background: inherit; color:#006633; text-decoration: underline; }
+
+/* headers */
+h1, h2, h3 { font: bold 1em 'Trebuchet MS', Tahoma, Sans-serif; }
+h1 { font-size: 1.5em; color: #65944A; }
+h2 { font-size: 1.2em; text-transform: uppercase; }
+h3 { font-size: 1.2em; }
+
+h1, h2, h3 {
+	margin: 10px 15px;
+}
+
+ul, ol {
+    margin-top: 10px;
+    text-align:left;
+}
+
+p{margin: 10px 15px;}
+ul, ol {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+/* images */
+img {
+	border: 0px solid #292929;
+	padding: 0px;
+	background: #FAFAFA;
+}
+
+img.float-right {
+  margin: 0px 0px 0px 0px;  
+}
+
+img.float-left {
+  margin: 0px 0px 0px 0px;
+}
+
+
+#header-content, #content, #footer-content {
+	width: auto;
+}
+
+/* header */
+#header {
+	height: 90px;   /* height of top grey band */
+	text-align: center;  /* align top text in grey band */	
+}
+
+#header-content {	
+	margin: auto; padding: 0px;
+	position: center;
+}
+
+/* menu bar */
+#menu {
+	float: right;
+	height: 40px;
+	width: 1000px;
+	background-color:#292929;
+}
+
+/* menu bar tabs position */
+#menu ul {
+	margin: -42px;
+	padding: 50px 0px 0px 3px; /* move text in the menu bar */
+	list-style:none;
+}
+
+#menu li {
+	float: left;	
+}
+
+#menu a {
+	padding: 0px 0px 0px 70px; /* gap between tabs in menu */
+	text-decoration:none;
+	font-size: 20px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-weight:bold;
+}
+
+#menu a:hover {
+	text-decoration:none;
+	color:#6d9b43;
+}
+
+#menu .first a {
+	background: none;
+}
+
+#header-content h1#logo {
+	position: auto;	
+	font:  31px 'Trebuchet MS', Sans-serif;
+	letter-spacing: -1px; 
+	color: #FFF;
+        padding: 5px; /* move Hellenic Society up or down */
+        margin-top:0px;
+	margin-left:center; /* move Hellenic Society left or right */
+	top: 0px; 
+	
+}
+
+.albert{
+	position: center;	
+	margin-top: -5px; /* move Einstein quote up or down */
+	margin-left:400px;
+	/*top: 0px; right: 0px;*/
+	background-color:#292929;
+}
+
+.sideboxforum {
+	background:#65944A;
+	border: 1px solid #EFEDED;
+	margin-bottom: 10px;
+	
+}
+
+/* header menu */
+#header-content ul {
+	position: absolute;
+	right: -5px; top: 15px;
+	font: bolder 1.3em 'Trebuchet MS', sans-serif;
+	color: #FFF;
+	list-style: none;
+	margin: 0; padding: 0;		
+} 
+
+#header-content li {
+	display: inline;
+}
+#header-content li a {
+	float: left;
+	display: block;
+	padding: 3px 12px;	
+	color: #FFF;
+	background-color: #333;
+	text-decoration: none;
+	border-right: 1px solid #272727;
+}
+#header-content li a:hover {
+	background: #65944A;
+	color: #FFF;
+}
+#header-content li a#current  {
+	background: #65944A;
+	color: #FFF;
+}
+
+/* header photo, changed width to auto, chose the height I wanted */
+.headerphoto {
+	margin: 0px; /* vertical position of header photo */
+	width: auto;
+	height: 200px;
+	padding: 20px; /* vertical span of header photo */
+	background: #000 url('/images/headerphoto_v2.jpg')
+        no-repeat
+        center;	
+}
+
+/* content */
+#content-wrap {
+	clear: both;
+	float: center;
+	width: auto;
+}
+#content {
+	text-align: left;	
+	padding: 20px; /* move the whole menu + plus sidebar up or down */
+	margin: center;	
+}
+
+/* sidebar */
+#sidebar {
+	float: right;
+	width: 330px;
+	margin: 0 15px 0px 0px; padding: 0; /* move sidebar left or right */		
+}	
+#sidebar h1 {
+	padding: 10px 0px 5px 10px;
+	margin: 0;	
+	font: bold 1.3em 'Trebuchet MS', Tahoma, Sans-serif;
+}
+.sidebox {
+	background: #F5F5F5;
+	border: 1px solid #EFEDED;
+	margin-bottom: 10px;
+}
+.sideboxforum {
+	background:#65944A;
+	border: 1px solid #EFEDED;
+	margin-bottom: 10px;
+	
+}
+
+
+/* sidebar menu */
+#sidebar ul.sidemenu {
+	list-style:none;
+	margin: 10px 0 15px 0;
+	padding: 0;
+	background: #F2F2F2;			
+}
+#sidebar ul.sidemenu li {
+	padding: 0px 15px;
+}
+#sidebar ul.sidemenu a {
+	display:block;
+	font-weight:normal;
+	color: #333;
+	height: 1.5em;	
+	padding:.3em 0 .3em 15px;
+	line-height: 1.5em;
+	border-bottom: 1px dashed #D4D4D4;
+	text-decoration:none;
+}
+#sidebar ul.sidemenu a.top{	
+	border-top: 1px dashed #D4D4D4;
+}
+#sidebar ul.sidemenu a:hover {
+	padding: .3em 0 .3em 10px;
+	border-left: 5px solid  #65944A;
+	color: #65944A;		
+}
+
+/* main */
+#main {
+	float: left;
+	width: 1000px;	
+	margin: 0px 0px 0px 15px; padding: 0;  /* move main body with menu left or right*/
+}
+#main h1 {
+	padding: 15px 0px 0px 5px;
+	margin: 0 0 0 10px;
+	border-bottom: 1px solid #f2f2f2; 	
+	font: normal 1.5em 'Trebuchet MS', Tahoma, Sans-serif;
+}
+#main ul li {
+	list-style:none;
+}
+
+.post {
+width:auto;
+	margin-top:30px; padding: 10px;
+	background: #FFF url('/images/gradientbg.jpg') repeat-x;
+	border: 1px solid #EFEDED;
+	font-size:16px; /* font size of text and Labes HSRGC, Latest news */
+	
+	
+}
+.text{
+font-size:16px; /* font size of announcements */
+width:auto;
+height:auto;
+min-height:30px;
+background-image: url('/images/arrow.gif');
+background-repeat:no-repeat;
+
+
+}
+.text p{
+padding-left:27px;
+
+}
+.word{
+text-indent:10em;
+background-color:#FFFFFF;
+}
+
+
+/* footer */
+#footer {
+	clear: both;
+	margin: 0; padding: 0;
+	font: normal .95em/1.6em 'Trebuchet MS', Tahoma, Arial, sans-serif;
+	text-align: left;	
+}
+
+#footer h1, #footer p {	margin-left: 0; }
+
+#footer-content {	
+	border-top: 1px solid #EAEAEA;
+	margin: 0 auto;
+	padding-left: 15px;
+}
+#footer-content a {
+	text-decoration: none;
+	color: #777;	
+}
+#footer-content a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+#footer-content ul {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+#footer-content .col {
+	width: 35%;
+	padding: 0 5px 30px 0;	
+}
+#footer-content .col2 {
+	width: 35%;
+	padding: 0 0 30px 0;	
+}
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right {	text-align: right; }
+
+/* additional classes */
+.clear { clear: both; }
+.gray  { color: #BFBFBF; }
