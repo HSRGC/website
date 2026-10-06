@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
+<head>
+	{{- partial "head.html" . -}}
+  {{ if eq .Section "members" }}
+  <link rel="stylesheet" href="{{ "/css/members.css" | relURL }}">
+  {{ end }}
+</head>
+
+<body class="body">
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+    <div id="wrap">
+      <div id="content-wrap">
+      <div class="content">
+        <div id="main">
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+          <div class="post">
+          {{ block "main" . }}
+          {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="content">
+{{- partial "sidebar.html" . -}}
+      </div>
+      </div>
+
+
+{{ block "footer" . }}
+
+{{ end }}
+    </div>
+<script async defer src="{{ "js/menu.js" | relURL }}"></script>
+{{ range .Site.Params.customJS -}}
+<script src="{{ . | relURL }}"></script>
+{{- end }}
+{{- partial "mathjax.html" . -}}
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+{{/* Collect member pages, honouring the consent flag */}}
+{{ $members := where .Site.RegularPages "Section" "members" }}
+{{ $members = where $members "Params.consentPublish" true }}
+{{ $members = sort $members "Params.lastName" }}
+
+{{ $defaultAvatar := (resources.Get "images/avatar.png").RelPermalink }}
+
+<section class="member-grid">
+  {{ range $members }}
+    {{/* Resolve photo: member's file if set and present, else default */}}
+    {{ $photo := $defaultAvatar }}
+    {{ with .Params.profilePhoto }}
+      {{ $check := strings.TrimPrefix "/" . }}
+      {{ if os.FileExists (printf "static/%s" $check) }}
+        {{ $photo = . }}
+      {{ end }}
+    {{ end }}
+
+    <article class="member-card">
+      <div class="member-photo">
+        <img src="{{ $photo }}" alt="{{ .Params.firstName }} {{ .Params.lastName }}" loading="lazy">
+      </div>
+      <h3 class="member-name"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Params.role }}<p class="member-role">{{ . }}</p>{{ end }}
+      {{ with .Params.affiliation }}<p class="member-affiliation">{{ . }}</p>{{ end }}
+      <ul class="member-links">
+        {{ with .Params.orcid }}
+          <li><a href="https://orcid.org/{{ . }}" rel="noopener" aria-label="ORCID">ORCID</a></li>
+        {{ end }}
+        {{ with .Params.googleScholar }}
+          <li><a href="{{ . }}" rel="noopener" aria-label="Google Scholar">Scholar</a></li>
+        {{ end }}
+        {{ with .Params.github }}
+          <li><a href="https://github.com/{{ . }}" rel="noopener" aria-label="GitHub">GitHub</a></li>
+        {{ end }}
+        {{ with .Params.email }}
+          <li><a href="mailto:{{ . }}" aria-label="Email">Email</a></li>
+        {{ end }}
+      </ul>
+        {{ with .Params.institution }}
+          {{ . }}
+        {{ end }}
+    </article>
+  {{ else }}
+    <p class="member-empty">No members to display yet.</p>
+  {{ end }}
+</section>

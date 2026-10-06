@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<!-- <title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title> -->
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="description" content="HSRGC is the National Society of Greece on the scientific areas of Relativity, Gravitation and Cosmology, and a member of the International Society on General Relativity and Gravitation.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="favicon.ico" rel="shortcut icon" />
+
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}

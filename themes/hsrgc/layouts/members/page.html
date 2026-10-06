@@ -1,0 +1,60 @@
+{{ define "main" }}
+<article class="member">
+  <div class="member-header">
+    <div class="member-headings">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.role }}<p class="member-role">{{ . | title }}</p>{{ end }}
+      {{ with .Params.affiliation }}<p class="member-affiliation">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+
+  <div class="member-bio">
+  <div>
+    <p>Email: <a href=mailto:{{ .Params.email }}>{{ .Params.email }}</a></p>
+    <p class="address">{{ .Params.address }}</p>
+    <div class="member-bio-text">{{ .Content }}</div>
+  </div>
+    <p>
+    {{ with .Params.profilePhoto }}
+      <div class="member-profile-photo">
+      <img class="member-profile-photo" src="{{ . | relURL }}" alt="{{ $.Params.firstName }} {{ $.Params.lastName }}" loading="lazy">
+      {{ if eq $.Params.membershipType "council" }}
+      <span class="member-badge" title="Governing Council">&#11088</span>
+      {{ end }}
+      </div>
+    {{ end }}
+    </p>
+  </div>
+
+  <dl class="member-details">
+    {{ with .Params.email }}
+      <dt>{{ i18n "email" | default "Email" }}</dt>
+      <dd><a href="mailto:{{ . }}">{{ . }}</a></dd>
+    {{ end }}
+    {{ with .Params.homepage }}
+      <dt>{{ i18n "homepage" | default "Homepage" }}</dt>
+      <dd><a href="{{ . }}">{{ . }}</a></dd>
+    {{ end }}
+    {{ with .Params.orcid }}
+      <dt>ORCID</dt>
+      <dd><a href="https://orcid.org/{{ . }}">{{ . }}</a></dd>
+    {{ end }}
+    {{ with .Params.member_since }}
+      <dt>{{ i18n "memberSince" | default "Member since" }}</dt>
+      <dd>{{ . }}</dd>
+    {{ end }}
+  </dl>
+
+  {{ with .Params.address }}<p class="address">{{ . }}</p>{{ end }}
+
+  {{ with .Params.research_interests }}
+  <section class="member-interests">
+    <h2>{{ i18n "researchInterests" | default "Research interests" }}</h2>
+    <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+  </section>
+  {{ end }}
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  <p class="member-back"><a href="{{ .Parent.RelPermalink }}">← {{ i18n "allMembers" | default "All members" }}</a></p>
+</article>
+{{ end }}

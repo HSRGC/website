@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+
+  {{ with .Content }}
+    <section class="home-intro">
+      {{ . }}
+    </section>
+  {{ end }}
+
+  <h1 class="section-title">{{ i18n "latestNews" | default "Latest news" }}</h2>
+  {{ $news := first 5 (where site.RegularPages "Section" "news") }}
+
+  {{ range first 5 (where site.RegularPages "Section" "news") }}
+    <article class="post-summary">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <p>{{ .Summary }}</p>
+    </article>
+  {{ end }}
+
+{{ end }}

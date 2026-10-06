@@ -1,0 +1,87 @@
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.member-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  text-align: center;w
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.member-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.member-photo img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+.member-name { margin: 0.25rem 0; font-size: 1.1rem; }
+.member-role { color: #2563eb; font-weight: 600; font-size: 0.85rem; margin: 0; }
+.member-affiliation { color: #64748b; font-size: 0.85rem; margin: 0.25rem 0 0.5rem; }
+
+.member-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+}
+
+.member-header { display: flex; gap: 1.5rem; align-items: flex-start; }
+.member-profile-photo {
+  width: 160px; height: 240px; object-fit: cover;
+  border: 0px solid #65944A;        /* heritage green accent */
+  border-radius: 6px;
+}
+.member-role { font-weight: bold; color: #65944A; margin: 0; }
+.member-affiliation { color: #555; margin: 0.2rem 0 0; }
+.member-details dt { float: left; clear: left; font-weight: bold; min-width: 8em; }
+.member-details dd { margin-left: 8.5em; }
+
+.member-bio { display: flex; gap: 1.5rem; align-items: flex-start; }
+.member-bio .member-profile-photo { flex-shrink: 0; }
+.member-profile-photo {
+  position: relative;
+  display: inline-block;
+}
+
+.member-badge {
+  position: absolute;
+  line-height: normal;
+  text-align: center;
+  bottom: 5px;
+  right: 5px;
+  background: #65944A;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.2rem 0.2rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.03em;
+  pointer-events: none;
+}
+.address { white-space: pre-line; }
+
+@media (max-width: 640px) {
+  .member-bio .member-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}
+

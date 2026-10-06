@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="section-header">
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.description }}
+    <p class="section-description">{{ .Params.description }}</p>
+  {{ end }}
+</div>
+
+{{ with .Content }}
+  <div class="section-intro">{{ . }}</div>
+{{ end }}
+
+{{ partial "members-list.html" . }}
+{{ end }}

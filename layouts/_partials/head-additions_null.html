@@ -1,0 +1,14 @@
+{{- partials.Include "hook.html" (dict "hook" "head-end" "context" .) -}}
+{{ $css := resources.Get "css/extended/index.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+      <div id="header">
+        <div id="header-content">
+          <h1 id="logo"> Hellenic Society <span class="gray">on Relativity,
+              Gravitation and Cosmology</span></h1>
+          <div class="albert"> <img alt="" src="images/albertenstein.jpg" /></div>
+        </div>
+      </div>
+      <div class="headerphoto">  </div>
+<hr>
+Testing the head addition!
+<hr>
