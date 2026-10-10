@@ -16,8 +16,8 @@
 "homepage": "http://thomassotiriou.wix.com/challenginggr"
 "researchKeywords": []
 "memberSince": ""
-"profilePhoto": ""
-"consentPublish": false
+"profilePhoto": "/images/members/sotiriouth.jpg"
+"consentPublish": true
 "aliases":
 - "/members/SotiriouTh.html"
 ---

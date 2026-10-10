@@ -16,8 +16,8 @@
 "homepage": ""
 "researchKeywords": []
 "memberSince": ""
-"profilePhoto": ""
-"consentPublish": false
+"profilePhoto": "/images/members/papanikolaout.png"
+"consentPublish": true
 "aliases":
 - "/members/PapanikolaouT.html"
 ---

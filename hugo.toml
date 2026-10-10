@@ -27,14 +27,19 @@ category = "categories"
 member-tag = "member-tags"
 
 [Social]
-    twitter = "https://twitter.com/hsrgc"
+    twitter = "@hsrgc"
     facebook = "@hsrgc"
     instagram = ""
-    youtube = "@hsrgc1231231"
+    youtube = "@hsrgc4158"
     linkedin = ""
     mastodon = ""
     slack = ""
     rss = ""
+
+# Cache directory reused by the GitHub Actions build across runs.
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [outputs]
   home = ['HTML', 'RSS']

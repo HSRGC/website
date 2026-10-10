@@ -17,8 +17,8 @@
 "homepage": "https://www.kyriakosdestounis.com/"
 "researchKeywords": []
 "memberSince": ""
-"profilePhoto": ""
-"consentPublish": false
+"profilePhoto": "/images/members/destounisk.jpg"
+"consentPublish": true
 "aliases":
 - "/members/DestounisK.html"
 ---

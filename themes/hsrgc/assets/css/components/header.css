@@ -69,7 +69,7 @@ header {
 	padding: 20px; /* vertical span of header photo */
 	background: #000 url('/images/headerphoto_cover.jpg')
         no-repeat
-        center;	
+        left;	
 }
 
 .albert{
