@@ -1,6 +1,6 @@
 ---
 date: '2026-09-30T18:59:27+01:00'
-draft: true
+draft: false
 title: ''
 featured_image: 'images/headerphoto_cover.jpg'
 ---
