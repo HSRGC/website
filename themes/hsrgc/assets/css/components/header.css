@@ -31,7 +31,7 @@ header {
 	
 }
 
-* header menu */
+/* header menu */
 #header-content ul {
 	position: absolute;
 	right: -5px; top: 15px;
@@ -69,19 +69,19 @@ header {
 	padding: 20px; /* vertical span of header photo */
 	background: #000 url('/images/headerphoto_cover.jpg')
         no-repeat
-        left;	
+        center;	
 }
 
 .albert{
 	position: center;	
 	margin-top: -5px; /* move Einstein quote up or down */
-	margin-left:400px;
-	/*top: 0px; right: 0px;*/
+	margin-left: 400px;
+	/* top: 0px; right: 0px; */
 	background-color:#292929;
 }
 
 
 .logo {
-	background-image: url('/images/headerphoto_cover.jpg');
-  min-height: 240px;
+	background-image: url('/images/orcid_icon.svg');
+	min-height: 240px;
 }

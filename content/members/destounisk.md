@@ -5,7 +5,9 @@
 "firstName": "Kyriakos"
 "lastName": "Destounis"
 "role": ""
-"membershipType": "ordinary"
+category: ["membercard"]
+memberTag: ["board"]
+membershipType: "council"
 "affiliation": "Instituto Superior Técnico (IST)"
 "address": "Universidade de Lisboa,, Center for Astrophysics and Gravitation (CENTRA), Department of Physics, Floor 4, Office\
   \ 4.8.11,, Av. Rovisco Pais 1, 1049-001 Lisboa,, Portugal"

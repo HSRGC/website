@@ -5,7 +5,7 @@ title = 'Hellenic Society of Relativity, Gravitation and Cosmology'
 theme = 'hsrgc'
 
 MetaDataFormat = "yaml"
-site_logo = "/images/hsrgc_logo.svg"
+site_logo = "/images/logo_light.png"
 timeZone = 'Europe/Athens'
 date_format = "02 Jan 2026"
 
@@ -71,7 +71,7 @@ member-tag = "member-tags"
   weight  = 10
 [[languages.en.menu.main]]
   name    = 'History'
-  pageRef = '/about'
+  pageRef = '/history'
   weight  = 20
 [[languages.en.menu.main]]
   name    = 'News'
@@ -79,8 +79,12 @@ member-tag = "member-tags"
   weight  = 30
 [[languages.en.menu.main]]
   name    = 'Organisation'
-  pageRef = '/events'
+  pageRef = '/organisation'
   weight  = 40
+# [[languages.en.menu.main]]
+#   name    = 'Members'
+#   pageRef = '/members'
+#   weight  = 41
 # [[languages.en.menu.main]]
 #   name    = 'Activities'
 #   pageRef = '/activities'
@@ -95,26 +99,34 @@ member-tag = "member-tags"
   weight  = 70
 
 [[languages.el.menu.main]]
-  name    = 'Σχετικά'
-  pageRef = '/about'
+  name    = 'Αρχική'
+  pageRef = '/'
   weight  = 10
 [[languages.el.menu.main]]
-  name    = 'Σχετικά'
-  pageRef = '/about'
-  weight  = 10
-[[languages.el.menu.main]]
-  name    = 'Μέλη'
-  pageRef = '/members'
+  name    = 'Ιστορία'
+  pageRef = '/history'
   weight  = 20
 [[languages.el.menu.main]]
   name    = 'Νέα'
   pageRef = '/news'
   weight  = 30
 [[languages.el.menu.main]]
-  name    = 'Εκδηλώσεις'
-  pageRef = '/events'
+  name    = 'Οργανωτικά'
+  pageRef = '/organisation'
   weight  = 40
+# [[languages.el.menu.main]]
+#   name    = 'Μέλη'
+#   pageRef = '/members'
+#   weight  = 41
+# [[languages.el.menu.main]]
+#   name    = 'Δραστηριότητες'
+#   pageRef = '/activities'
+#   weight  = 50
+[[languages.el.menu.main]]
+  name    = 'Συνδρομή & οφειλές'
+  pageRef = '/membership'
+  weight  = 60
 [[languages.el.menu.main]]
   name    = 'Επικοινωνία'
   pageRef = '/contact'
-  weight  = 50
+  weight  = 70

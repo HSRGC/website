@@ -5,6 +5,8 @@
 "firstName": "Thomas"
 "lastName": "Sotiriou"
 "role": ""
+category: ["membercard"]
+memberTag: ["board"]
 "membershipType": "founding-ordinary"
 "affiliation": "School of Mathematical Sciences & School of Physics and Astronomy"
 "address": "University of Nottingham, University Park, Nottingham NG7 2RD, UK"
