@@ -78,8 +78,8 @@ member-tag = "member-tags"
   pageRef = '/news'
   weight  = 30
 [[languages.en.menu.main]]
-  name    = 'Organisation'
-  pageRef = '/organisation'
+  name    = 'Organization'
+  pageRef = '/organization'
   weight  = 40
 # [[languages.en.menu.main]]
 #   name    = 'Members'
@@ -112,7 +112,7 @@ member-tag = "member-tags"
   weight  = 30
 [[languages.el.menu.main]]
   name    = 'Οργανωτικά'
-  pageRef = '/organisation'
+  pageRef = '/organization'
   weight  = 40
 # [[languages.el.menu.main]]
 #   name    = 'Μέλη'

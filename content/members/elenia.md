@@ -5,7 +5,7 @@
 "firstName": "Areti"
 "lastName": "Eleni"
 "role": ""
-"membershipType": "junior"
+"membershipType": "council"
 "affiliation": "Department of Physics"
 "address": "Section of Astrophysics, Astronomy and Mechanics, University of Athens, Panepistimiopolis, 15784 Zografos Athens,\
   \ Greece, Fax: +493315677298"
@@ -18,7 +18,7 @@
 "researchKeywords": []
 "memberSince": ""
 "profilePhoto": ""
-"consentPublish": false
+"consentPublish": true
 "aliases":
 - "/members/EleniA.html"
 ---

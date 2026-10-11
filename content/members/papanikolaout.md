@@ -5,7 +5,7 @@
 "firstName": "Theodoros"
 "lastName": "Papanikolaou"
 "role": ""
-"membershipType": "ordinary"
+"membershipType": "council"
 "affiliation": "Scuola Superiore Meridionale"
 "address": "Via Mezzocannone 4,, 80134 Naples, Italy"
 "phone": ""

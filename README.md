@@ -50,18 +50,18 @@ Benefits for the new setup:
 |------------------------------|--------------------|-----------------|--------------------|
 | index.html                   | /_index.md         |                 | :construction:     |
 | history.html                 | /history.md        |                 | :white_check_mark: |
-| organization.html            | /organization/     |                 | :construction:        |
+| organization.html            | /organization/     |                 | :construction:     |
 | activities.html              | /activities/       |                 | pending            |
-| membership.html              | /membership/       |                 | pending            |
+| membership.html              | /membership/       |                 | :construction:     |
 | members.html                 | /members/_index.md |                 | :construction:     |
-| members/                     | /members/          |                 | :construction:        |
+| members/                     | /members/          |                 | :construction:     |
 | members-2014.html            |                    |                 | will not migrate   |
 | organizations.html           | /organizations/    |                 | pending            |
 | links.html                   | /links/            |                 | pending            |
 | public-outreach.html         | /outreach/         |                 | pending            |
 | public-outreach-old.html     |                    |                 | will not migrate   |
 | public-outreach-old2.html    |                    |                 | will not migrate   |
-| contact.html                 | /contact/          |                 | pending            |
+| contact.html                 | /contact.md        |                 | :construction:     |
 | payments?                    |                    |                 | update needed      |
 | forum?                       |                    |                 | ?                  |
 | colloquia.html               | /events/           |                 | pending            |
