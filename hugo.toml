@@ -1,7 +1,7 @@
 baseURL = 'https://www.hsrgc.gr/'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
-title = 'Hellenic Society of Relativity, Gravitation and Cosmology'
+title = 'Hellenic Society on Relativity, Gravitation and Cosmology'
 theme = 'hsrgc'
 
 MetaDataFormat = "yaml"

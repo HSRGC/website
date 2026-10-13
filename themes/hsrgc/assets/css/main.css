@@ -53,12 +53,6 @@ ul, ol {
     text-align:left;
 }
 
-ul, ol {
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-
 /* images */
 img {
 	border: 0px solid #292929;
@@ -86,11 +80,11 @@ img.float-left {
 #menu ul {
 	margin: 0px;
 	padding: 8px 0px 0px 3px; /* move text in the menu bar */
-	list-style:none;
+	list-style: none;
 }
 
 #menu li {
-	float: left;	
+	float: left;
 }
 
 #menu a {
@@ -179,9 +173,6 @@ img.float-left {
 	border-bottom: 1px solid #f2f2f2; 	
 	font: normal 1.5em 'Trebuchet MS', Tahoma, Sans-serif;
 }
-#main ul li {
-	list-style:none;
-}
 
 .post {
 	width: auto;
@@ -216,7 +207,7 @@ img.float-left {
 
 /* sidebar menu */
 #sidebar ul.sidemenu {
-	list-style:none;
+	list-style: none;
 	margin: 10px 0 15px 0;
 	padding: 0;
 	background: #F2F2F2;			

@@ -12,11 +12,10 @@
 
   {{ range first 5 (where site.RegularPages "Section" "news") }}
     <article class="post-summary">
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
       <time datetime="{{ .Date.Format "2006-01-02" }}">
         {{ .Date.Format "January 2, 2006" }}
       </time>
-      <p>{{ .Summary }}</p>
     </article>
   {{ end }}
 
