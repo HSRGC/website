@@ -5,7 +5,8 @@
 }
 
 #header-content {	
-	margin: auto; padding: 0px;
+	margin: auto; 
+	padding: 0px;
 	position: center;
 }
 
@@ -84,4 +85,5 @@ header {
 .logo {
 	background-image: url('/images/orcid_icon.svg');
 	min-height: 240px;
+	margin: 10px 15px;
 }

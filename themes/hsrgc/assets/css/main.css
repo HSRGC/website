@@ -40,7 +40,7 @@ a:hover { background: inherit; color:#006633; text-decoration: underline; }
 h1, h2, h3 { 
   font-family: 'Trebuchet MS', Tahoma, sans-serif;
   font-weight: 700;
-  margin: 1.5rem 1rem 1rem 1rem;
+  margin: 1.5rem 15px 10px 15px;
 }
 h1 { font-size: 1.5rem; color: #65944A; }
 h2 { font-size: 1.2rem; text-transform: uppercase; color: #65944A;}
@@ -144,7 +144,7 @@ img.float-left {
 
 /* sidebar */
 #sidebar {
-	width: 330px;
+	width: 280px;
 	margin: 0 15px 0px 0px; 
 	padding: 0 25px; /* move sidebar left or right */		
 }	

@@ -48,13 +48,13 @@ Benefits for the new setup:
 
 | old URL                      | new Hugo path      | redirect needed | migration status   |
 |------------------------------|--------------------|-----------------|--------------------|
-| index.html                   | /_index.md         |                 | :construction:     |
-| history.html                 | /history.md        |                 | :white_check_mark: |
-| organization.html            | /organization/     |                 | :construction:     |
-| activities.html              | /activities/       |                 | pending            |
-| membership.html              | /membership/       |                 | :construction:     |
-| members.html                 | /members/_index.md |                 | :construction:     |
-| members/                     | /members/          |                 | :construction:     |
+| index.html                   | /_index.md         | :x:             | :construction:     |
+| history.html                 | /history.md        | :x:             | :white_check_mark: |
+| organization.html            | /organization/     | :x:             | :construction:     |
+| activities.html              | /activities/       | :?:             | pending            |
+| membership.html              | /membership/       | yes             | :construction:     |
+| members.html                 | /members/_index.md | :?:             | :construction:     |
+| members/                     | /members/          | :x:             | :construction:     |
 | members-2014.html            |                    |                 | will not migrate   |
 | organizations.html           | /organizations/    |                 | pending            |
 | links.html                   | /links/            |                 | pending            |

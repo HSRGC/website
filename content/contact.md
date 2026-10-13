@@ -5,12 +5,12 @@ title: 'Contact'
 ---
 
 **Surface Address :**
->                  Laboratory of Astronomy
->                  Section of Astrophysics, Astronomy and Mechanics
->                  Department of Physics
->                  Aristotle University of Thessaloniki
->                  GR-54124 Thessaloniki
->                  Greece
+                  Laboratory of Astronomy
+                  Section of Astrophysics, Astronomy and Mechanics
+                  Department of Physics
+                  Aristotle University of Thessaloniki
+                  GR-54124 Thessaloniki
+                  Greece
 
 **Telephone :** +30 2310 99 8047
 
