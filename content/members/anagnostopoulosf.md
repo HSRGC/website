@@ -6,7 +6,7 @@
 "lastName": "Anagnostopoulos"
 "role": ""
 "membershipType": "junior"
-"affiliation": "Webpage -"
+"affiliation": ""
 "address": ""
 "phone": ""
 "email": "fotis-anagnostopoulos@hotmail.com"

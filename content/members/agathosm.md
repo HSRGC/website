@@ -8,22 +8,27 @@ aliases:
   - "/members/AgathosM.html"
 category: ["membercard"]
 memberTag: ["board"]
-membershipType: "council"
+membershipType: ["ordinary","council"]
+"memberSince": "2014"
 firstName: "Michalis"
 lastName: "Agathos"
+"role": ""
 homepage: "https://www.qmul.ac.uk/maths/profiles/agathosm.html"
 email: "m.agathos@qmul.ac.uk"
 phone: ""
-institution: "Queen Mary University of London"
+affiliation: "Queen Mary University of London"
 address: |
   School of Mathematical Sciences, 
   Queen Mary University of London
   E1 4NS London, 
   United Kingdom
 orcid: "0000-0002-9072-1121"
+"googleScholar": ""
+"github": ""
 profilePhoto: "/images/members/agathosm.jpg"
 consentPublish: true
 ---
+<!-- profile-photo: "images/{{ .File.ContentBaseName }}.jpg" -->
 
 Lecturer in Gravitational Wave Physics and Data Analysis at QMUL and vice-president of HSRGC (2025-2027). 
 

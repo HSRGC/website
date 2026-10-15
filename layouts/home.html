@@ -18,5 +18,20 @@
       </time>
     </article>
   {{ end }}
+ 
+  {{ $posts := (where site.RegularPages "Section" "posts") }}
+  {{ if $posts }}
+    <h1 class="section-title">{{ i18n "recentPosts" | default "Recent posts" }}</h2>
+    {{ range first 5 (where site.RegularPages "Section" "posts") }}
+      <article class="post-summary">
+        <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        {{ .Summary }}
+        <p style="text-align: right;"><a href="{{ .RelPermalink }}">Read more</a></p>
+      </article>
+    {{ end }}
+  {{ end }}
 
 {{ end }}

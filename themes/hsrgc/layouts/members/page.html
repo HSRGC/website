@@ -18,8 +18,8 @@
     {{ with .Params.profilePhoto }}
       <div class="member-profile-photo">
       <img class="member-profile-photo" src="{{ . | relURL }}" alt="{{ $.Params.firstName }} {{ $.Params.lastName }}" loading="lazy">
-      {{ if eq $.Params.membershipType "council" }}
-      <span class="member-badge" title="Governing Council">&#11088</span>
+      {{ if in $.Params.membershipType "council" }}
+      <span class="member-badge" title="Governing Board">&#11088</span>
       {{ end }}
       </div>
     {{ end }}
