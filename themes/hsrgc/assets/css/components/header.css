@@ -1,17 +1,23 @@
 /* header */
 #header {
-	height: 90px;   /* height of top grey band */
+	height: auto;   /* height of top grey band */
 	text-align: center;  /* align top text in grey band */	
+	background: var(--ink); color: #fff;
 }
 
 #header-content {	
 	margin: auto; 
 	padding: 0px;
-	position: center;
+	display: flex; 
+	flex-direction: column;
+	align-items: center; 
+	justify-content: space-between; 
+	gap: 5px; 
+	margin-inline: auto; 
 }
 
 header {
-  border-bottom: 5px solid #65944A;
+  /* border-bottom: 5px solid var(--brand); */
   margin-bottom: 0rem;
 }
 
@@ -21,69 +27,35 @@ header {
 
 
 #header-content h1#logo {
-	position: auto;	
+	margin: 5px;
+	margin-left: -10%;
 	font:  31px 'Trebuchet MS', Sans-serif;
-	letter-spacing: -1px; 
-	color: #FFF;
-        padding: 5px; /* move Hellenic Society up or down */
-        margin-top:0px;
-	margin-left:center; /* move Hellenic Society left or right */
+	color: var(--theme);
+	padding: 5px; /* move Hellenic Society up or down */
 	top: 0px; 
-	
-}
-
-/* header menu */
-#header-content ul {
-	position: absolute;
-	right: -5px; top: 15px;
-	font: bolder 1.3em 'Trebuchet MS', sans-serif;
-	color: #FFF;
-	list-style: none;
-	margin: 0; padding: 0;		
-} 
-
-#header-content li {
-	display: inline;
-}
-#header-content li a {
-	float: left;
-	display: block;
-	padding: 3px 12px;	
-	color: #FFF;
-	background-color: #333;
-	text-decoration: none;
-	border-right: 1px solid #272727;
-}
-#header-content li a:hover {
-	background: #65944A;
-	color: #FFF;
-}
-#header-content li a#current  {
-	background: #65944A;
-	color: #FFF;
 }
 
 .headerphoto {
 	margin: 0px; /* vertical position of header photo */
 	width: auto;
 	height: 200px;
-	padding: 20px; /* vertical span of header photo */
+	padding: 20px;
 	background: #000 url('/images/headerphoto_cover.jpg')
         no-repeat
         center;	
 }
 
 .albert{
-	position: center;	
-	margin-top: -5px; /* move Einstein quote up or down */
-	margin-left: 400px;
-	/* top: 0px; right: 0px; */
-	background-color:#292929;
+	margin-bottom: 5px; /* move Einstein quote up or down */
+	margin-left: 30%;
+	max-width: 50%;
+	background-color: var(--ink);
 }
 
-
-.logo {
-	background-image: url('/images/orcid_icon.svg');
-	min-height: 240px;
-	margin: 10px 15px;
+.albert .quote {
+	margin: 0;
+	font-family: 'Bradley Hand ITC','Bradley Hand', cursive;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.2;
 }

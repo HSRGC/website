@@ -7,7 +7,7 @@
     </section>
   {{ end }}
 
-  <h1 class="section-title">{{ i18n "latestNews" | default "Latest news" }}</h2>
+  <h2 class="section-title">{{ i18n "latestNews" | default "Latest news" }}</h2>
   {{ $news := first 5 (where site.RegularPages "Section" "news") }}
 
   {{ range first 5 (where site.RegularPages "Section" "news") }}
@@ -21,7 +21,7 @@
  
   {{ $posts := (where site.RegularPages "Section" "posts") }}
   {{ if $posts }}
-    <h1 class="section-title">{{ i18n "recentPosts" | default "Recent posts" }}</h2>
+    <h2 class="section-title">{{ i18n "recentPosts" | default "Recent posts" }}</h2>
     {{ range first 5 (where site.RegularPages "Section" "posts") }}
       <article class="post-summary">
         <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
