@@ -50,7 +50,7 @@ Benefits for the new setup:
 |------------------------------|--------------------|-----------------|--------------------|
 | index.html                   | /_index.md         | :x:             | :construction:     |
 | history.html                 | /history.md        | :x:             | :white_check_mark: |
-| organization.html            | /organization/     | :x:             | :construction:     |
+| organization.html            | /organization/     | :x:             | :white_check_mark: |
 | activities.html              | /activities/       | :?:             | pending            |
 | membership.html              | /membership/       | yes             | :construction:     |
 | members.html                 | /members/_index.md | :?:             | :construction:     |

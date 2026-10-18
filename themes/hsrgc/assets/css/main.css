@@ -63,13 +63,6 @@ img {
 	background: var(--image-bg);
 }
 
-img.float-right {
-  margin: 0px 0px 0px 0px;  
-}
-
-img.float-left {
-  margin: 0px 0px 0px 0px;
-}
 
 /* menu bar */
 #menu {
@@ -245,10 +238,13 @@ img.float-left {
 
 figure {
   margin: 1.5rem auto;
+  text-align: center;
 }
 figure img {
   max-width: min(var(--img-width), 100%);
-  width: var(--img-width);
+  width: 75%;
+  margin auto;
+  display: block;
   height: auto;
 }
 figcaption {

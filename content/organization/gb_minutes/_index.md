@@ -2,6 +2,7 @@
 date: '2026-10-16T00:05:00+01:00'
 draft: true
 title: 'Minutes of the Governing Board meetings'
+type: minutes
 ---
 
 1st G.B. Meeting 16-05-2010

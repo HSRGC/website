@@ -1,5 +1,5 @@
 ---
-date: '2024-10-11T21:50:29+01:00'
+date: '2024-09-11T21:50:29+01:00'
 draft: true
 title: 'Governing board 2024-2025'
 ---
@@ -18,7 +18,7 @@ Councillor: [G. Loukes-Gerakopoulos](members/loukes-gerakopoulosg)
 
 ## Auditors (2024-2025)
 
-[M. Saridakis](members/saridakism)
+[M. Saridakis](members/saridakise)
 
 [G. Pappas](members/pappasg)
 

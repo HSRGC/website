@@ -1,5 +1,5 @@
 ---
-date: '2022-10-11T21:56:50+01:00'
+date: '2022-09-11T21:56:50+01:00'
 draft: true
 title: 'Governing Board 2022-2024'
 ---
@@ -18,7 +18,7 @@ Councillor: [G. Loukes-Gerakopoulos](members/loukes-gerakopoulosg)
 
 ## Auditors (2022-2024)
 
-[M. Saridakis](members/saridakism)
+[M. Saridakis](members/saridakise)
 
 [G. Pappas](members/pappasg)
 

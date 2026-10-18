@@ -5,7 +5,8 @@ type: news
 external_url: "http://www.hsrgc.gr/elections-2025-results.html"
 ---
 
-During the NEB-21 conference, new elections took place. The following candidates were elected and constitute the new governing board and auditors for the 2025-2027 term:
+During the NEB-21 conference, new elections took place. 
+The following candidates were elected and constitute the new governing board and auditors for the 2025-2027 term:
 
 ### President
 
@@ -14,13 +15,13 @@ During the NEB-21 conference, new elections took place. The following candidates
 
 ### Members of Governing Board
 
-1) [Agathos, Michalis](members/agathosm) (vice president)
+ - [Agathos, Michalis](members/agathosm) (vice president)
 
-2) [Papanikolaou, Theodoros](members/papanikolaout) (secretary) 
+ - [Papanikolaou, Theodoros](members/papanikolaout) (secretary) 
 
-3) [Eleni, Areti](members/elenia) (treasurer)
+ - [Eleni, Areti](members/elenia) (treasurer)
 
-4) [Destounis, Kyriakos](members/destounisk) (councillor)
+ - [Destounis, Kyriakos](members/destounisk) (councillor)
 
 
 ### Auditors

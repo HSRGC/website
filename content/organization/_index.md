@@ -4,9 +4,10 @@ draft: false
 title: 'Governing Board and Auditors of the HSRGC'
 ---
 
-The present Governing Board and the Auditors were elected in September of 2025. The elections took place after the 8th General Assembly of the Society and during NEB-21 in Corfu, Greece.
-
 The Constitution of the HSRGC can be found [here](pdf/katastatiko_web.pdf).
+
+The present Governing Board and the Auditors were elected in September of 2025. 
+The elections took place after the 8th General Assembly of the Society and during NEB-21 in Corfu, Greece.
 
 ## Governing Board (2025 - 2027)
 

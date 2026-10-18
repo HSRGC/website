@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+
+  {{ with .Content }}
+    <section class="organization-md">
+      {{ . }}
+    </section>
+  {{ end }}
+
+<hr>
+
+{{ $gb_posts := (where site.RegularPages "Section" "organization") }}
+<h2 class="section-title">{{ i18n "governingBoards" | default "Past Governing Boards" }}</h2>
+    {{ range $gb_posts }}
+    <article class="post-summary">
+      <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      <time>
+        {{ .Date.Format "January, 2006" }}
+      </time>
+      <!-- {{ .Summary }} -->
+      <!-- <p style="text-align: right;"><a href="{{ .RelPermalink }}">Read more</a></p> -->
+    </article>
+    {{ end }}
+
+<hr>
+
+<h2 class="section-title">{{ i18n "generalAssemblies" | default "Minutes" }}</h2>
+    {{ range .Sections }}
+    <article class="post-summary">
+      <p><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      <time>
+        {{ .Date.Format "January, 2006" }}
+      </time>
+      <!-- {{ .Summary }} -->
+      <!-- <p style="text-align: right;"><a href="{{ .RelPermalink }}">Read more</a></p> -->
+    </article>
+    {{ end }}
+
+{{ end }}
