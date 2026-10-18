@@ -1,5 +1,8 @@
 # CONTRIBUTING [WIP]
 
+Here you will find a minimal set of guidelines on how to contribute content to the website repo.
+For more advanced topics, consult the [hugo documentation](https://gohugo.io/documentation/).
+
 ## Installing Hugo
 
 Make sure you have Hugo installed on your system.
@@ -7,21 +10,35 @@ You can follow the installation instructions for macOS, Linux, Windows or BSD on
 
 For macOS, the easiest way is via homebrew:
 
-`brew install hugo`
+```
+brew install hugo
+```
 
 ## Clone the git repo
 
 Make a local clone of this git repo to your current working directory by running
 
-`git clone git@github.com:HSRGC/website.git`
+```
+git clone git@github.com:HSRGC/website.git
+```
 
 ## Make your contribution
 
-Make your edits, typically by editing files under the `content/` directory and run
+Before starting to edit your local clone, make sure you have pulled the most recent changes to the repository.
+
+Make your changes locally, typically by editing files under the `content/` directory.
+
+If you want to create a new file, e.g. under the `news` section, you can use the Hugo command like so:
+
+`hugo new content/news/great-news-everyone.md`
+
+This creates the new file and initializes it with the appropriate template, for convenience and uniformity.
+
+Then run
 
 `hugo server -D`
 
-to build the website and review locally.
+to build the website and review locally (including draft pages).
 
 Once you're happy with your edits, proceed with the typical git workflow: 
  - commit your changes, 
