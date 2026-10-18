@@ -1,4 +1,4 @@
-baseURL = 'https://www.hsrgc.gr/'
+baseURL = 'https://hsrgc.github.io/website/'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 title = 'Hellenic Society on Relativity, Gravitation and Cosmology'
