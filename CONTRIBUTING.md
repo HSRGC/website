@@ -11,18 +11,30 @@ For macOS, the easiest way is via homebrew:
 
 ## Clone the git repo
 
+Make a local clone of this git repo to your current working directory by running
+
+`git clone git@github.com:HSRGC/website.git`
 
 ## Make your contribution
 
+Make your edits, typically by editing files under the `content/` directory and run
+
 `hugo server -D`
 
-to build and review locally
+to build the website and review locally.
+
+Once you're happy with your edits, proceed with the typical git workflow: 
+ - commit your changes, 
+ - pull & resolve conflicts (if any) and 
+ - push.
+
+Alternatively, and only for simple changes that don't require testing, you can edit files directly through the github web interface.
 
 Don't worry too much about breaking things. 
 Git keeps the complete history of changes, so we can always roll back to an earlier working version if something goes wrong. 
 Moreover, if deployment is set up via a github pages workflow, preliminary checks are made before a change gets approved for deployment to the online version. 
 
-Never edit files inside `themes/<name>/`, these are submodules and should only be updated.
+Never edit files inside `themes/<name>/`, these are submodules (except our own custom `hsrgc` theme) and should only be updated.
 
 ## Advanced 
 
@@ -37,4 +49,6 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 Here I cloned the repository of the *Ananke* theme as a git submodule. 
 
 The option that controls which theme will be used when the website is built is the `theme` option in the `hugo.toml` config file, currently set to 
-```theme = 'ananke'```
+```theme = 'ananke'```. 
+Following this, you will probably have to tweak several configuration options, layouts and content files, in order to customize the website according to the new theme.
+For details, check the theme's documentation.
