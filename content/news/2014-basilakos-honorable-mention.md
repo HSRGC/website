@@ -1,6 +1,6 @@
 ---
 title: "Essay by HSRGC member S. Basilakos (Founding Ordinary Member) awarded Honorable Mention by Gravity Research Foundation."
-date: "2015-01-01"
+date: "2014-05-01"
 type: news
 external_url: "https://www.gravityresearchfoundation.org/s/2014abstracts.pdf"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Results of Elections of HSRGC (2018) - New Governing Board"
-date: "2018-10-10"
+date: "2018-09-10"
 type: news
 external_url: "elections-2018-results.html"
 ---

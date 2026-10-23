@@ -1,11 +1,12 @@
 ---
 title: "Results of Elections of HSRGC (2016) - New Governing Board"
-date: "2016-10-10"
+date: "2016-09-10"
 type: news
 external_url: "elections-2016-results.html"
 ---
 
-During the NEB-17 conference, new elections took place. The following candidates were elected and constitute the new governing board and auditors:
+During the NEB-17 conference, new elections took place. 
+The following candidates were elected and constitute the new governing board and auditors:
 
 ### President
 

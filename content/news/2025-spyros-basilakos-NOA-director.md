@@ -1,6 +1,6 @@
 ---
 title: "Dr Spyros Basilakos elected as new director of National Observatory of Athens"
-date: "2025-03-15"
+date: "2025-06-18"
 type: news
 external_url: "https://www.astro.noa.gr/staff/research-personnel/vasilakos-spyros/"
 ---
